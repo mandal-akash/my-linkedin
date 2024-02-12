@@ -1,0 +1,68 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.left-header > img {
+    width: 35px;
+}
+
+.left-header{
+    display: flex;
+    align-items: center ;
+}
+
+.searchBox{
+    margin-left: 15px;
+    padding: 10px 20px 10px 5px;
+    background-color: rgb(223, 241, 240);
+    border-radius: 5px;
+}
+.searchBox > form > input {
+   font-size: 15px;
+   background-color: rgb(223, 241, 240);
+   padding-right:  30px;
+   padding-left: 15px;
+   border: none;
+   outline: none;
+}
+
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 550px;
+}
+
+.header-right{
+    color: grey;
+}
+
+/* Make responsivenes in header Section */
+
+@media  (max-width:768px) {
+
+    .searchBox > form > input {
+        width: 0;
+        padding: 0;
+    }
+
+    .searchBox > form > i {
+       display: none;
+    }
+
+    .searchBox{
+        background: transparent;
+        width: auto;
+        padding: 0px;
+    }
+
+    .left-header > img {
+       width: 30px;
+       margin-left: 12px;
+       margin-top: -14px;
+    }
+}

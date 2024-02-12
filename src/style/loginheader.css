@@ -1,0 +1,75 @@
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-header img {
+  width: 160px;
+  margin-left: 30px;
+}
+
+.headerOptions {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.headerIcons {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.headerIcons span:hover {
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+}
+.headerOptions p {
+  font-size: 14px;
+  color: rgba(82, 82, 82, 0.685);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.headerIcons span {
+  font-size: 22px;
+  color: rgba(82, 82, 82, 0.685);
+}
+
+.linkedinBtns {
+  margin-right: 50px;
+}
+
+.joinBtn {
+  margin-right: 20px;
+  padding: 15px 22px 15px 22px;
+  color: rgb(68, 67, 67);
+  border: none;
+  background-color: white;
+  font-size: 18px;
+}
+
+.joinBtn:hover {
+  background-color: rgb(230, 229, 229);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.linkedin-signBtn {
+  border-radius: 50px;
+  border: 1px solid rgb(18, 159, 247);
+  padding: 15px 22px 15px 22px;
+  color: rgb(18, 159, 247);
+  background-color: white;
+  font-size: 18px;
+}
+
+.linkedin-signBtn:hover {
+  cursor: pointer;
+  color: rgb(5, 107, 170);
+  background-color: rgba(195, 226, 245, 0.664);
+}
+
+
+/* Responsiveness on login page */
+
+@media  (max-width:768px) {
+      .headerOptions{
+        display: none;
+      }
+}

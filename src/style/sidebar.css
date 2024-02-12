@@ -1,0 +1,113 @@
+
+.sidebar{
+    flex-basis: 20%;
+    align-self: flex-start;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: fit-content;
+}
+.sidebarAvatar{
+    border: 3px solid white;
+    width: 55px;
+    margin-bottom: 10px;
+    height: 55px;
+}
+.sidebar-profile-box > img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: -30px;
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sidebar-profile-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sidebar-profile-box h2{
+    font-size: 20px;
+}
+.sidebar-profile-box h4{
+    font-size: 13px;
+    color: rgb(92, 89, 89);
+    padding: 10px;
+}
+
+
+.sidebarStats{
+    border: 1px solid lightgrey;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.topSidebarStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.topSidebarStats > p {
+    font-size: 12px;
+    color: rgb(65, 67, 71);
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.sidebarStat_num{
+    color: rgb(81, 136, 253) !important; 
+    font-weight: bold;
+}
+
+.sidebar-activity{
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.sidebar-activity h3{
+    color: rgb(113, 108, 108);
+    font-size: 15px;
+}
+
+.sidebar-items p{
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.sidebar-items span{
+    padding-left: 13px;
+}
+.sidebar-items{
+    margin-top: 12px;
+    display: flex;
+}
+
+.sidebar-items:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+/* Responsiveness on sidebar section */
+
+@media  (max-width:768px) {
+    .sidebar{
+        display: none;
+    }
+}
