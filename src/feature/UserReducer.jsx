@@ -12,9 +12,6 @@ export const UserReducer = createSlice({
   logout: (state) =>{
       state.user = null;
   },
-    // incrementByAmount: (state, action) => {
-    //   state.user += action.payload
-    // },
   },
 })
 
