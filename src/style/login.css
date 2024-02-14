@@ -51,8 +51,8 @@ input::placeholder{
   border: 1px solid rgb(5, 106, 168);
   color: rgb(247, 247, 247);
   background-color: rgb(5, 106, 168);
-  margin: 20px auto;
-  padding: 18px 100px 18px 100px;
+  margin: 10px auto;
+  padding: 10px 30px 10px 30px;
   font-size: 18px;
 }
 
@@ -62,26 +62,22 @@ input::placeholder{
     border: 1px solid rgb(2, 74, 119);
 }
 
-.newUser{
+.newUserJoinBtn{
+    border-radius: 50px;
+  border: 1px solid rgb(5, 106, 168);
+  color: rgb(247, 247, 247);
+  background-color: rgb(5, 106, 168);
+  margin: 10px auto;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+}
+
+.linkedin-btn{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
 }
 
-.newUser p{
-    color: rgb(80, 80, 80);
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-.newUser button{
-    font-size: 18px;
+.gray{
+    background-color: grey;
+    color: white;
     border: none;
-    background: none;
-    color: rgb(5, 106, 168);
-}
-
-.newUser button:hover{
-    cursor: pointer;
 }

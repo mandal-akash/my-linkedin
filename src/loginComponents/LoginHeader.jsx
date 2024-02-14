@@ -10,35 +10,35 @@ const LoginHeader = () => {
       <div className="headerOptions">
         <div className="headerIcons">
           <span>
-            <i class="fa-solid fa-newspaper"></i>
+            <i className="fa-solid fa-newspaper"></i>
           </span>
           <p>Articles</p>
         </div>
 
         <div className="headerIcons">
           <span>
-            <i class="fa-solid fa-user-group"></i>
+            <i className="fa-solid fa-user-group"></i>
           </span>
           <p>People</p>
         </div>
 
         <div className="headerIcons">
           <span>
-            <i class="fa-solid fa-folder"></i>
+            <i className="fa-solid fa-folder"></i>
           </span>
           <p>Learning</p>
         </div>
 
         <div className="headerIcons">
           <span>
-            <i class="fa-solid fa-briefcase"></i>
+            <i className="fa-solid fa-briefcase"></i>
           </span>
           <p>Jobs</p>
         </div>
 
         <div className="headerIcons">
           <span>
-            <i class="fa-solid fa-chalkboard"></i>
+            <i className="fa-solid fa-chalkboard"></i>
           </span>
           <p>Get the app</p>
         </div>
